@@ -6,15 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script src="scripts.js" defer></script>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <h1>Rock Paper Scissor!</h1>
-    <button id="rock">ROCK</button>
-    <button id="paper">PAPER</button>
-    <button id="scissor">SCISSOR</button>
+    <div class="button-container">
+        <button id="rock">ROCK</button>
+        <button id="paper">PAPER</button>
+        <button id="scissor">SCISSOR</button>
+    </div>
     <div id="result">CHOOSE ROCK PAPER OR SCISSOR TO PLAY</div>
-    <div id="userScore">0</div>
-    <div id="computerScore">0</div>
-    
+    <div class="score">
+        <div id="userScore">0</div>
+        <div id="computerScore">0</div>
+    </div>
 </body>
 </html>
