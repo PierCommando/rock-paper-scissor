@@ -57,7 +57,7 @@ function checkScore() {
         let end
         if (userScore > computerScore) {
             end = "You Win"
-        } else if (computerScore > playerScore) {
+        } else if (computerScore > userScore) {
             end = "You Lose"
         } else {
             end = "It's a Draw"
